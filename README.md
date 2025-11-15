@@ -190,7 +190,9 @@ python main.py --log-level INFO
 ### Example Word Problem
 
 ```
-Alice had $20 more than Bob at first. After Alice spent $52, Bob had thrice as much money as Alice. How much money did Alice have at first?
+Alice had $20 more than Bob at first. 
+After Alice spent $52, Bob had thrice as much money as Alice. 
+How much money did Alice have at first?
 ```
 
 ### Expected Output
@@ -226,7 +228,7 @@ For more detailed output, set `LOG_LEVEL=INFO` or `LOG_LEVEL=DEBUG` in `.env`.
 
 The application uses two configuration files for questions:
 
-**`questions.txt`** - Contains all available math word problems (33 questions total)
+**`questions.txt`** - Contains examples of math word problems (33 questions total)
 - One question per line
 - All questions from the research paper dataset
 
@@ -423,16 +425,6 @@ The codebase follows these standards:
 Edit files in `mcp_servers/prompts/`:
 - `system-prompt.txt`: Overall system behavior
 - `bar-model-drawing.txt`: Bar model creation instructions
-
-## Examples
-
-The application includes example questions in `main.py`. To add your own:
-
-```python
-list_qns = [
-    "Your math word problem here...",
-]
-```
 
 ## Dependencies
 
