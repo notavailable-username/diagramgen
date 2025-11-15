@@ -1,0 +1,8 @@
+{
+    "mcpServers": {
+        "pri-math-model": {
+            "command": "python",
+            "args": ["mcp_servers/main.py"]
+        }
+    }
+}

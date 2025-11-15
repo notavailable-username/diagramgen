@@ -1,0 +1,27 @@
+# Core dependencies for Singapore Math Bar Model Generator
+# Last updated: 2025-01-14
+
+# Google Generative AI SDK
+# Provides access to Gemini models (gemini-2.5-flash)
+google-genai>=1.50.1,<2.0.0
+
+# Model Context Protocol
+# For MCP server and client functionality
+mcp>=1.21.0,<2.0.0
+
+# Computer Vision
+# For bar model image generation
+opencv-python>=4.10.0,<5.0.0
+
+# Configuration Management
+# For type-safe environment variable handling
+pydantic-settings>=2.6.0,<3.0.0
+
+# Optional: For better async performance
+# Uncomment if you want to use aiohttp instead of httpx
+# google-genai[aiohttp]>=1.50.1,<2.0.0
+
+# Optional: For handling malformed JSON (Google SDK bug workaround)
+# Currently not used but available for future improvements
+# See: https://github.com/googleapis/python-genai/issues/1162
+# json-repair>=0.25.0
