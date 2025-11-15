@@ -190,8 +190,7 @@ python main.py --log-level INFO
 ### Example Word Problem
 
 ```
-Bernard had $20 more than Rhona at first. After Bernard spent $52,
-Rhona had thrice as much money as Bernard. How much money did Bernard have at first?
+Alice had $20 more than Bob at first. After Alice spent $52, Bob had thrice as much money as Alice. How much money did Alice have at first?
 ```
 
 ### Expected Output
