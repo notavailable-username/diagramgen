@@ -460,5 +460,3 @@ Built with:
 - Pydantic for configuration management
 
 ---
-
-**Note**: This project is designed for educational purposes and Singapore primary school mathematics problems. Generated images are saved in the `images/` directory (auto-created on first run).
